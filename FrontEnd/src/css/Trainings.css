@@ -1,0 +1,59 @@
+.row {
+  width: 100%;
+  height: auto;
+}
+.col-2 {
+  width: 50%;
+}
+.col1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(248, 246, 246);
+}
+#traiimg {
+  width: 100%;
+  height: auto;
+}
+
+.col2 {
+  background-color: rgb(248, 246, 246);
+  vertical-align: middle;
+  align-items: center;
+  justify-content: center;
+  background-image: url(../img/mainpage3.png);
+  background-size: cover;
+}
+
+.col2box{
+  justify-content: center;
+}
+
+.link p {
+  margin-top: 50px;
+  margin-bottom: 40px;
+  padding-left: 50px;
+  font-size: 17px;
+  color: #a5d83c;
+}
+.link p:hover {
+  color: gray;
+  transition: 0.4s ease-out;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+  .row {
+    width: 100%;
+    display: inline;
+  }
+  .col-2 {
+    width: 100%;
+    height: auto;
+  }
+  .trainingImg {
+    max-width: 342px;
+    max-height: 229px;
+    margin: 50px;
+  }
+}

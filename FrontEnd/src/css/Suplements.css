@@ -1,0 +1,33 @@
+.container {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.storyhead{
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+}
+
+.storyhead h1{
+    font-size: 28px;
+    font-weight: 700;
+    color: #a5d83c;
+}
+
+.row{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    justify-content: center;
+}
+
+.col{
+    padding: 10px;
+}
+
+
+

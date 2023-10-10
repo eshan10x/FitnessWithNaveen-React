@@ -1,0 +1,264 @@
+.rates__header {
+    background-image: url('../img/defcover\ 2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 310px;
+    object-fit: contain;
+}
+
+.rates__header h1 {
+    color: white;
+    padding-top: 50px;
+    font-size: 48px;
+    text-align: center;
+}
+
+.withdrawRates {
+    width: 90%;
+    height: auto;
+    padding-bottom: 30px !important;
+    margin: 80px auto;
+}
+
+.rateTitle {
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    color: gray;
+    font-size: 24px;
+}
+
+.rowRates {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.coll1 {
+    
+    background-image: url(../img/PERSONALTRANING.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.coll2{
+    
+    background-image: url(../img/ONLINETRANING.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.coll3{
+    
+    background-image: url(../img/HOMEVISIT.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.coll4{
+    
+    background-image: url(../img/OUTDOORTRANING.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.coll5{
+    background-image: url(../img/WORKOUTPLANS.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.coll6{
+    background-image: url(../img/MEAL.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.coll7{
+    background-image: url(../img/absonline.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.collom4{
+    background-color: #fff;
+    height: 100%;
+    padding: 90px 40px 75px;
+    position: relative;
+    text-align: center;
+    margin: 0 auto;
+    box-shadow: 0 0 1px transparent;
+    transform: perspective(1px) translateZ(0px);
+    transition-duration: 0.3s;
+    transition-property: transform;
+    width: fit-content;
+    margin-bottom: 20px;
+}
+
+
+.collom4:hover {
+    transform: perspective(1px) translateY(-3px);
+    transition-duration: 0.4s;
+    transition-property: transform;
+}
+
+.collom4 h1 {
+    color: white;
+    font-size: 50px;
+    font-weight: bold;
+    letter-spacing: 4px;
+    margin-bottom: 33px;
+}
+
+.collom4 span {
+    color: #a5d83c;
+    font-size: 48px;
+    font-weight: 600;
+    margin-bottom: 35px;
+}
+
+.collom4 h3 {
+    color: #a4a4a4;
+    font-size: 18px;
+}
+
+.collom4 p {
+    color: white;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 24px;
+    margin-bottom: 45px;
+    margin-top: 30px;
+}
+
+.collom4 .btn {
+    background-color: white;
+    color: black;
+    font-weight: 700;
+}
+
+.collom4 .btn:hover {
+    background-color: #a5d83c;
+    color: white;
+}
+
+.withdrawRates2 {
+    width: 85%;
+    height: auto;
+    padding-bottom: 30px !important;
+    background-color: #f4f4f4 !important;
+    margin: 50px auto;
+}
+
+.withdrawRates2 h2 {
+    font-weight: 500;
+    font-size: 33px;
+    color: #363535;
+    padding: 20px;
+}
+
+.withdrawRates2 p {
+    font-size: 20px;
+    font-weight: 500;
+    color: #363535;
+    padding-left: 20px;
+}
+
+.withdrawRates3 {
+    width: 100%;
+    height: 550px;
+    background-image: url(../img/cover.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.withdrawRates3 h2 {
+    padding-top: 350px;
+    padding-left: 30px;
+    width: 70%;
+    font-size: 32px;
+    margin: 0;
+    line-height: 1.4;
+    color: #a5d83c;
+    font-weight: bolder;
+}
+
+.withdrawRates3 p {
+    padding-top: 5px;
+    padding-left: 30px;
+    color: #fff;
+    font-weight: 500;
+    font-size: 18px;
+    padding-bottom: 50px;
+}
+
+.withdrawRates3 h4 {
+    float: right;
+    margin-top: -170px;
+    background-color: white;
+    padding: 12px 40px;
+    border-radius: 5px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    font-size: 21px;
+    font-weight: 600;
+    color: #a5d83c;
+}
+
+.withdrawRates3 h4:hover {
+    cursor: pointer;
+}
+
+.withdrawRates4 {
+    width: 80%;
+    height: auto;
+    padding-bottom: 20px !important;
+    margin: 50px auto;
+}
+
+.withdrawRates4 p {
+    color: gray;
+    font-size: 25px;
+}
+
+@media screen and (max-width: 768px) {
+    .withdrawRates3 {
+        width: 80%;
+        height: auto;
+        padding-bottom: 30px !important;
+        background-color: #dd3333 !important;
+        margin: 50px auto;
+        text-align: center;
+    }
+
+    .withdrawRates3 h4 {
+
+        margin-top: -30px;
+        background-color: white;
+        padding: 10px 37px;
+        border-radius: 5px;
+        margin-right: 120px;
+        font-size: 21px;
+        font-weight: 600;
+        color: #dd3333;
+    }
+
+    .withdrawRates3 h2 {
+        padding-top: 50px;
+        padding-left: 60px;
+        width: 70%;
+        font-size: 28px;
+        line-height: 1.4;
+        color: #fff;
+    }
+
+    .withdrawRates3 p {
+        padding-top: 5px;
+        padding-left: 10px;
+        color: #fff;
+        font-weight: 500;
+        font-size: 16px;
+        padding-bottom: 50px;
+    }
+}
